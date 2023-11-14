@@ -1,0 +1,323 @@
+li{
+    list-style: none;
+    display: inline-block;
+    color:red;
+    
+}
+
+.navbar{
+    background-color:#333;
+    padding:20px;
+    text-align: center;
+
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+li a{
+    color:rgb(246, 240, 240);
+    margin-right: 20px;
+}
+
+.image{
+  height: 400px;
+  margin-top: -10px;
+  margin-left: -35px;
+  float:left;
+}
+
+.image1{
+    margin-top: 10px;
+    margin-right:20px;
+    float:right;
+    width:300px;
+    height:300px;
+
+}
+
+.bg{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: scroll;
+
+}
+
+
+/*
+.about{
+    padding-left:-8px;
+    padding-top: 3%;
+    float: left;
+    color:white;
+    font-style:normal;
+    font-size: 20pt;
+}
+*/
+
+li a:hover{
+    background-color: rgb(8, 0, 0);
+}
+
+
+
+.header{
+    position: absolute;
+    background-color:#fff;
+    color:#333;
+    left:350px;
+    right:400px;
+    text-align:center;
+    margin-top:2%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: -50px;
+
+}
+
+.set{
+     position:absolute;
+     left:390px;
+     margin-top: 75pt;
+}
+
+.p{
+    font-size: 14pt;
+}
+
+.ht{
+    position:absolute;
+    left:420px;
+    margin-top: 110pt;
+    font-size: 14pt;
+
+}
+
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 50%; 
+    border-radius: 15px; 
+    margin-top: 180px;
+    margin-left:390px;
+
+} 
+
+.skill { 
+    background-color: rgb(116, 194, 92); 
+    color: white; 
+    padding: 0.5%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+    
+} 
+
+.html{ 
+    width: 80%; 
+}
+.container1{ 
+    background-color: rgb(192, 192, 192); 
+    width: 50%; 
+    border-radius: 15px;
+    margin-left:390px; 
+
+} 
+.css{
+    width:60%;
+}
+
+.p1{
+    font-size: 14pt;
+    margin-bottom: 10pt;
+    right: 40%;
+}
+
+.container2{ 
+    background-color: rgb(192, 192, 192); 
+    width: 50%; 
+    border-radius: 15px;
+    margin-left:390px; 
+
+} 
+.js{
+    width:70%;
+}
+
+.desc{
+    left:20px;
+    position:absolute;
+    bottom:10px;
+    top:500px;
+    right:20px;
+    background-color:#333;
+}
+
+.cp{
+    color:white;
+    margin-left: 1px;
+    text-align: center;
+}
+
+
+
+
+/* Style Sheet Code for Services Page */
+
+.services{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: scroll;
+    
+}
+
+.pa{
+    text-align: center;
+    font-size: 14pt;
+    color:white;
+}
+
+.pa:hover{
+    color:red;
+}
+
+.service{
+    background-color: #333; 
+    width: 50%; 
+    border-radius: 15px;
+    margin-left:390px; 
+    margin-top: 20px;
+
+}
+
+.pa2{
+    color:#333;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 14pt;
+}
+
+.pa2:hover{
+    color:red;
+
+}
+
+.home{
+    color:red;
+    text-align: center;
+    float:center;
+
+}
+
+/* Projects Page Style Sheet Code */
+.projects{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: scroll;  
+}
+
+.project{
+    background-color: #333; 
+    width: 50%; 
+    border-radius: 15px;
+    margin-left:390px; 
+    margin-top: 20px;
+
+}
+
+/* Contact Page Style Code */
+
+.contact{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: scroll;  
+}
+
+.info{
+    background-color: #333;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 390px;
+    width:50%; 
+    border-radius: 15px;
+}
+
+.c{
+    color:rgb(238, 236, 236);
+    font-size: 14pt;
+
+}
+
+.c:hover{
+    color:rgb(5, 255, 5) ;
+}
+
+.ct{
+    color:#333;
+    text-align: center;
+    margin-top:200px;
+    font-size: 14pt;
+}
+
+.ct:hover{
+    color:rgb(5,225,5);
+}
+
+/*About Page Style Sheet Code*/
+
+.about{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow: scroll; 
+    
+
+}
+
+.ab{
+    background-color: #333;
+    text-align: center;
+    margin-left: 390px;
+    width:50%; 
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.a{
+    color:white;
+    text-align: center;
+}
+
+.aa{
+    color:#333;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.a:hover{
+    color:aquamarine;
+}
+
+.aa:hover{
+    color:chocolate;
+}
+
+
+
+
+
+
+
+
+
